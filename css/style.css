@@ -1,0 +1,84 @@
+#list-title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F7F3E3;
+ }
+ 
+ #movie-list{
+     list-style: none;
+     font-family: 'Courier New', Courier, monospace;
+     padding: 10px;
+     margin: 50px;
+}
+
+ .list-item{
+     border-style: solid;
+     border-radius: 15px;
+     padding: 10px;
+     margin-right: 50px;
+ }
+ 
+ #submit{
+     border-radius: 15px;
+     background: #F7F3E3;
+     padding: 10px;
+     text-decoration: none;
+     text-align: center;
+     width: 75px;
+     transition: all 0.5s;
+     cursor: pointer;
+     margin: 5px;
+ }
+ 
+ 
+ #delete-all{
+     border-radius: 15px;
+     background: #F7F3E3;
+     padding: 10px;
+     text-decoration: none;
+     text-align: center;
+     width: 100px;
+     transition: all 0.5s;
+     cursor: pointer;
+     margin: 5px;
+     margin-left: 15px;
+     display: block;
+ }
+ 
+ 
+ .btn span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.5s;
+   }
+   
+ .btn span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+   }
+   
+ .btn:hover span {
+     padding-right: 25px;
+   }
+   
+ .btn:hover span:after {
+     opacity: 1;
+     right: 0;
+   }
+ 
+ #submit:hover{
+     color: #F7F3E3;
+     background-color: #353B3C;
+     transition: 0s 0s;
+ }
+ 
+ #delete-all:hover{
+     color: #F7F3E3;
+     background-color: #353B3C;
+     transition: 0s 0s;
+ }
