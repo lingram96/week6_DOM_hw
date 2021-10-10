@@ -23,6 +23,11 @@
             </div>
 
             <div class="form-item">
+                <label for="year" class="primary">Year</label>
+                <input type="text" id="year" required>
+            </div>
+
+            <div class="form-item">
                 <label for="genre" class="primary">Genre</label>
                 <select id="genre">
                     <option value="" disabled selected></option>
@@ -32,6 +37,14 @@
                     <option value="Drama">Drama</option>
                     <option value="Chick-flick">Chick-flick</option>
                 </select>
+            </div>
+
+            <div class="form-item">
+                <label for="legendary" class="primary">Legendary Film?</label>
+                <input type="radio" id="legendary" name="legendary-film" value="Legendary">
+                <label for="legendary">Yes</label>
+                <input type="radio" id="legendary" name="legendary-film" value="Not Legendary">
+                <label for="legendary">No</label>
             </div>
         </div>
         <input type="submit" value="Save" id="submit" class="btn">

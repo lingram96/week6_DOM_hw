@@ -13,13 +13,16 @@ form input{
     margin: 10px;
     display: block;
     background-color: #353B3C;
+    color: #F7F3E3;
 }
+
 
 form select{
     margin: 10px;
     display: block;
     background-color: #353B3C;
     margin-bottom: 10px;
+    color: #F7F3E3;
 }
 
 ul{
